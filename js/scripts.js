@@ -1,5 +1,5 @@
 const arrayOfButtons = Array.from(document.querySelectorAll('button'))
-let sfx = new Audio('/sounds/dial.wav');
+let sfx = new Audio('./sounds/dial.wav');
 //console.log(arrayOfButtons)
 
 for (let i = 0; i < arrayOfButtons.length; i++) {
@@ -29,11 +29,11 @@ function checkAnswer() {
         switch (codeInputVal) {
             case '7319':
                 codeInput.classList.toggle('correct');
-                window.location.replace("/img/outcome1.png");
+                window.location.replace("./img/outcome1.png");
                 break;
             case '5824':
                 codeInput.classList.toggle('correct');
-                window.location.replace("/img/outcome2.gif");
+                window.location.replace("./img/outcome2.gif");
                 break;
             case '9461':
                 codeInput.classList.toggle('correct');
