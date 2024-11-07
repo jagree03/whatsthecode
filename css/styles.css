@@ -1,5 +1,5 @@
 body {
-    background-image: url('./img/bg.gif');
+    background-image: url('img/bg.gif');
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
